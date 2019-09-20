@@ -1,0 +1,39 @@
+html, body {
+  height: 100%; }
+
+/*===========================
+    2.HEADER css 
+===========================*/
+
+.header-area {
+  height: 100%; }
+
+  .header-content {
+    height: 100%;
+    margin-top: 0;
+    background-image: url('../images/banner/roman01.jpg');
+    background-position: top right;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-color: black; }
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+      .header-content {
+        height: 100%; } }
+    @media (max-width: 767px) {
+      .header-content {
+        height: 100%; } }
+    @media (orientation: landscape) {
+      .header-content {
+        background-image: url('../images/banner/roman02.jpg'); } }
+
+  .main-btn i {
+    font-size: 23px;
+    vertical-align: text-bottom; }
+
+    
+/*===========================
+       9.FOOTER css 
+===========================*/
+
+    .footer-copyright .copyright-text p {
+      font-size: 10px; }
